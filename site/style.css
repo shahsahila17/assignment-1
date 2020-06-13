@@ -1,77 +1,35 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-section{
-    top:80px;
-    position: relative;
-    margin-left: 0.5%;
-    margin-top:10px;
-    margin-bottom:10px;
-    background-color: grey;
-    height:200px;
-    border:solid black;
-    float:left;
-    clear: right;
-}
-p.value{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size:14px;
-  clear:right;
-  margin-top:50px;
-}
-p.head1{
-  position: absolute;
-  background-color: pink;
-  float:right;
-  border-left:groove black;
-  border-bottom:groove black;
-  font-weight: bold;
-  font-size: 20px;
-  top:0;
-  right:0;
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom: 5px;
-}
-p.head2{
-  position: absolute;
-  background-color: maroon;
-  float:right;
-  border-left:groove black;
-  border-bottom:groove black;
-  font-weight: bold;
-  font-size: 20px;
-  top:0;
-  right:0;
-  color:white;
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom: 5px;
-}
-p.head3{
-  position: absolute;
-  background-color: wheat;
-  float:right;
-  border-left:groove black;
-  border-bottom:groove black;
-  font-weight: bold;
-  font-size: 20px;
-  top:0;
-  right:0;
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom: 5px;
-}
-div{
-    width:100%;
-}
 h1{
-    text-align: center;
-    margin-top:40px;
+  text-align: center;
+  font-weight: bold;
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+}
+.check{
+  background-color: grey;
+  font-size: 20px;
+  margin-top:20px;
+  width:85%;
+}
+.option{
+  background-color:white;
+  text-align: center;
+}
+#header-nav{
+  border-radius: 0;
+  background-color:gray;
+  margin:0;
+  position: relative;
+}
+h2{
+  position: absolute;
+  font-weight: bold;
+  font-size: 27px;
+  margin:10px;
+  left:5px;
+  top:2px;
+  color:black;
 }
 @media(min-width:992px)
 {

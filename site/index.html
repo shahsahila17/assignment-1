@@ -4,35 +4,62 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial scale=1"> 
         <title>Responsive Page</title>
+        <link rel="stylesheet" href="E:\bootstrap-3.3.6-dist\css\bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Our Menu</h1>
-        <div>
-            <section class="col-lg-4 col-md-4 col-sm-11">
-                <p class="head1">
-                    Chicken
-                </p>
-                <p class="value">
-                    Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures around the world, and their meat has been variously adapted to regional tastes.
-                </p>
-            </section>
-            <section class="col-lg-4 col-md-4 col-sm-11">
-                <p class="head2">
-                    Beef
-                </p>
-                <p class="value">
-                    Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients
-                </p>
-            </section>
-
-            <section class="col-lg-4 col-md-11 col-sm-11">
-                <p class="head3">
-                    Sushi
-                </p>
-                <p class="value">Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian.</p>
-            </section>
-
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <h2>Food, LLC</h2>
+                <button type="button" class="navbar-toggle collapsed visible-xs option" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <!--Toggle navigation written below will not be shown on browser since class is sr-only which means screen reader only -->
+                    <span class="sr-only">Toggle navigation</span>
+                    <!--3 spans for 3 horizontal lines-->
+                    <span class="icon-bar "></span>
+                    <span class="icon-bar "></span>
+                    <span class="icon-bar "></span>
+                  </button>
+            </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav">
+                    <li class="visible-xs option" > 
+                      <a href="#chicken">
+                        Chicken</a>
+                    </li>
+                    <li class="visible-xs option" > 
+                        <a href="#beef" >Beef</a>
+                    </li>
+                    <li class="visible-xs option" >
+                        <a href="#sushi"> Sushi</a>
+                    </li>
+                </ul>
         </div>
+    </nav>
+    <h1>Our Menu</h1>
+    <div class="container check">
+        <p>
+            <h3 id="chicken">Chicken</h3>
+            Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures around the world, and their meat has been variously adapted to regional tastes.Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling, among many others, depending on its purpose. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat
+        </p>
+    </div> 
+    <div class="container check">
+        <p>
+            <h3 id="beef">Beef</h3>
+            Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and nutrients.[2]
+
+Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed (corned beef or beef jerky). Trimmings, on the other hand, are usually mixed with meat from older, leaner (therefore tougher) cattle, are ground, minced or used in sausages.
+        </p>
+    </div> 
+    <div class="container check">
+        <p>
+            <h3 id="sushi">Sushi</h3>
+            Sushi (??) is a traditional food from Japan. It is a popular dish in other countries as well, such as America, Canada, and the UK, along with many other countries.
+
+Sushi is made with specially prepared rice. The rice is mixed with vinegar, salt, and sugar. Sushi also contains raw or cooked seafood, and sometimes vegetables as well. Sometimes sushi is wrapped in a sheet of seaweed called nori.
+        </p>
+    </div> 
+        <script src="E:\jquery-1.11.3.js"></script>
+        <script src="E:\bootstrap-3.3.6-dist\js\bootstrap.min.js"></script>
+        <script src="E:\script.js"></script>
     </body>
 </html>
